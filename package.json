@@ -1,5 +1,5 @@
-{ 
-  "homepage": "https://myusername.github.io/my-app",
+{
+  "homepage": "https://desaidisha992-hash.github.io/noteapp ",
   "name": "keep-note",
   "private": true,
   "version": "0.0.0",
@@ -8,7 +8,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.2.1",
